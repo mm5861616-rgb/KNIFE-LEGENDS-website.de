@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090A11">
+    <meta
+      name="description"
+      content="KNIFE LEGEND is an original Roblox experience by Nexus Development. Collect rare knives, open cases, compete in PvP, and build your legacy."
+    >
+    <title>KNIFE LEGEND | Nexus Development</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#home" aria-label="KNIFE LEGEND home">
+          <span class="brand-mark">K</span>
+          <span class="brand-copy">
+            <strong>KNIFE</strong>
+            <span>LEGEND</span>
+          </span>
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home" data-i18n="navHome">Home</a>
+          <a href="#collection" data-i18n="navCollection">Collection</a>
+          <a href="#gameplay" data-i18n="navGameplay">Gameplay</a>
+          <a href="#updates" data-i18n="navUpdates">Updates</a>
+          <a href="#community" data-i18n="navCommunity">Community</a>
+          <a href="#about" data-i18n="navAbout">About</a>
+        </nav>
+
+        <div class="language-switcher" aria-label="Language selector">
+          <button class="language-toggle" type="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Select language">
+            <span class="language-flag" aria-hidden="true">🇬🇧</span>
+            <span class="language-code">ENG</span>
+            <span class="language-caret" aria-hidden="true">▾</span>
+          </button>
+
+          <ul class="language-menu" role="listbox" aria-label="Language options">
+            <li>
+              <button class="lang-option active" type="button" data-lang="en" role="option" aria-selected="true" aria-label="English" title="English">
+                <span class="flag" aria-hidden="true">🇬🇧</span>
+                <span class="option-code">ENG</span>
+              </button>
+            </li>
+            <li>
+              <button class="lang-option" type="button" data-lang="de" role="option" aria-selected="false" aria-label="Deutsch" title="Deutsch">
+                <span class="flag" aria-hidden="true">🇩🇪</span>
+                <span class="option-code">DEU</span>
+              </button>
+            </li>
+            <li>
+              <button class="lang-option" type="button" data-lang="fr" role="option" aria-selected="false" aria-label="Français" title="Français">
+                <span class="flag" aria-hidden="true">🇫🇷</span>
+                <span class="option-code">FRA</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <a class="btn btn-primary" href="https://discord.gg/cKZqVaM4DU" target="_blank" rel="noreferrer">
+          <span data-i18n="discordCta">JOIN OUR DISCORD</span> <span aria-hidden="true">↗</span>
+        </a>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="hero-copy">
+            <p class="eyebrow" data-i18n="eyebrow">AN ORIGINAL ROBLOX EXPERIENCE BY NEXUS DEVELOPMENT</p>
+            <h1 data-i18n="heroTitle">THE NEXT LEGEND STARTS HERE</h1>
+            <h2 data-i18n="heroSub">COLLECT. COMPETE. BECOME LEGENDARY.</h2>
+            <p class="hero-text" data-i18n="heroText">
+              Discover rare knives, open cases, challenge other players, and build a collection that sets you apart.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="https://discord.gg/cKZqVaM4DU" target="_blank" rel="noreferrer">
+                <span data-i18n="discordCta">JOIN OUR DISCORD</span> <span aria-hidden="true">↗</span>
+              </a>
+              <a class="btn btn-secondary" href="#updates" data-i18n="comingSoon">COMING SOON</a>
+            </div>
+            <div class="hero-meta">
+              <span data-i18n="heroMetaDev">Currently in development</span>
+              <span data-i18n="heroMetaPlatform">Roblox</span>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="visual-glow"></div>
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="knife-figure">
+              <div class="knife-blade"></div>
+              <div class="knife-handle"></div>
+              <div class="knife-jewel"></div>
+            </div>
+            <div class="visual-tag visual-tag-top">NEXUS DEV</div>
+            <div class="visual-tag visual-tag-bottom">COLLECTION // PvP // TRADING</div>
+          </div>
+        </section>
+
+        <section class="info-strip" aria-label="Core gameplay highlights">
+          <div class="info-item">
+            <span class="info-kicker">01</span>
+            <strong data-i18n="infoCases">Cases</strong>
+            <small data-i18n="infoCasesText">Rare knives &amp; themed drops</small>
+          </div>
+          <div class="info-item">
+            <span class="info-kicker">02</span>
+            <strong data-i18n="infoInventory">Inventory</strong>
+            <small data-i18n="infoInventoryText">Collect, sort, favorite</small>
+          </div>
+          <div class="info-item">
+            <span class="info-kicker">03</span>
+            <strong data-i18n="infoPvP">PvP</strong>
+            <small data-i18n="infoPvPText">Skill-based competition</small>
+          </div>
+          <div class="info-item">
+            <span class="info-kicker">04</span>
+            <strong data-i18n="infoTrading">Trading</strong>
+            <small data-i18n="infoTradingText">Secure &amp; verified deals</small>
+          </div>
+        </section>
+
+        <section class="content-section" id="collection">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="sectionCollectionEyebrow">A NEW KIND OF COLLECTION</p>
+            <h3 data-i18n="sectionCollectionTitle">Every knife has a place in your journey.</h3>
+          </div>
+          <p class="section-intro" data-i18n="sectionCollectionIntro">
+            Discover new designs, chase rare finds, and make your collection your own.
+          </p>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <span class="feature-index">01</span>
+              <h4 data-i18n="feature1Title">OPEN CASES. FIND YOUR FAVORITE.</h4>
+              <p data-i18n="feature1Text">Explore the excitement of collecting and uncovering new knives. Every discovery brings a new goal to chase.</p>
+            </article>
+
+            <article class="feature-card accent-card">
+              <span class="feature-index">02</span>
+              <h4 data-i18n="feature2Title">PROVE YOUR SKILLS</h4>
+              <p data-i18n="feature2Text">Take on other players, sharpen your skills, and compete to earn your place among the legends.</p>
+            </article>
+
+            <article class="feature-card">
+              <span class="feature-index">03</span>
+              <h4 data-i18n="feature3Title">BUILD YOUR LEGACY</h4>
+              <p data-i18n="feature3Text">Grow your collection, trade with other players, and work toward becoming a true Knife Legend.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="gameplay-section" id="gameplay">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow" data-i18n="gameplayEyebrow">THE CORE LOOP</p>
+              <h3 data-i18n="gameplayTitle">Collect, compete, and grow.</h3>
+            </div>
+            <p class="section-intro compact" data-i18n="gameplayIntro">
+              The loop begins with better collection, new goals, and sharper challenges.
+            </p>
+          </div>
+
+          <div class="loop-grid">
+            <article class="loop-card">
+              <span class="loop-number">01</span>
+              <h4 data-i18n="loop1Title">Earn Rewards</h4>
+              <p data-i18n="loop1Text">Earn in-game currency through gameplay, quests, and battles.</p>
+            </article>
+            <article class="loop-card">
+              <span class="loop-number">02</span>
+              <h4 data-i18n="loop2Title">Open Cases</h4>
+              <p data-i18n="loop2Text">Unlock themed knife collections with different rarities and styles.</p>
+            </article>
+            <article class="loop-card">
+              <span class="loop-number">03</span>
+              <h4 data-i18n="loop3Title">Play &amp; Compete</h4>
+              <p data-i18n="loop3Text">Challenge other players in PvP and climb the leaderboard.</p>
+            </article>
+            <article class="loop-card">
+              <span class="loop-number">04</span>
+              <h4 data-i18n="loop4Title">Trade &amp; Collect</h4>
+              <p data-i18n="loop4Text">Complete your set, track your progress, and pursue new milestones.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="updates-section" id="updates">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow" data-i18n="updatesEyebrow">DEVELOPMENT &amp; UPDATES</p>
+              <h3 data-i18n="updatesTitle">Built for the next generation of legends.</h3>
+            </div>
+            <a class="mini-link" href="#community" data-i18n="updatesLink">Join the community ↗</a>
+          </div>
+
+          <div class="update-grid">
+            <article class="update-card">
+              <span class="update-label">PHASE 1 — FOUNDATION</span>
+              <h4 data-i18n="update1Title">Core gameplay and collection design</h4>
+              <p data-i18n="update1Text">Define the first knife sets, case structure, inventory flow, and brand identity.</p>
+            </article>
+            <article class="update-card">
+              <span class="update-label">PHASE 2 — PLAYABLE PROTOTYPE</span>
+              <h4 data-i18n="update2Title">Rewards, cases, collection, and PvP</h4>
+              <p data-i18n="update2Text">Prototype the main loop and validate progression, saving, and combat feel.</p>
+            </article>
+            <article class="update-card">
+              <span class="update-label">PHASE 3 — TRADING &amp; TESTING</span>
+              <h4 data-i18n="update3Title">Secure trades and balance</h4>
+              <p data-i18n="update3Text">Improve user trust with verified trade flows, exploit protection, and gameplay testing.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="community-section" id="community">
+          <div class="community-panel">
+            <div class="community-copy">
+              <p class="eyebrow" data-i18n="communityEyebrow">BE PART OF THE JOURNEY.</p>
+              <h3 data-i18n="communityTitle">KNIFE LEGEND is in development, and this is just the beginning.</h3>
+              <p data-i18n="communityText">
+                Join our community to follow development, discover sneak peeks, and stay up to date.
+              </p>
+            </div>
+            <div class="community-actions">
+              <a class="btn btn-primary" href="https://discord.gg/cKZqVaM4DU" target="_blank" rel="noreferrer">
+                <span data-i18n="discordCta">JOIN OUR DISCORD</span> <span aria-hidden="true">↗</span>
+              </a>
+              <span class="community-status" data-i18n="communityStatus">NEXUS DEVELOPMENT · BUILT FOR THE NEXT GENERATION OF LEGENDS.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="about-section" id="about">
+          <div class="about-box">
+            <p class="eyebrow" data-i18n="aboutEyebrow">ABOUT NEXUS</p>
+            <h3 data-i18n="aboutTitle">We build collections, competition, and ambition.</h3>
+            <p data-i18n="aboutText">
+              KNIFE LEGEND is a Roblox collecting and combat experience where every knife tells a story. Open cases, discover rare blades, build your collection, and trade your way toward a legendary reputation.
+            </p>
+          </div>
+          <div class="rarity-panel" aria-label="Suggested knife rarities">
+            <div class="rarity-row"><span data-i18n="rarityCommon">Common</span><span data-i18n="rarityUncommon">Uncommon</span></div>
+            <div class="rarity-row"><span data-i18n="rarityRare">Rare</span><span data-i18n="rarityEpic">Epic</span></div>
+            <div class="rarity-row"><span data-i18n="rarityLegendary">Legendary</span><span data-i18n="rarityMythic">Mythic</span></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-brand">
+          <span class="brand-mark">K</span>
+          <div class="brand-copy">
+            <strong>KNIFE</strong>
+            <span>LEGEND</span>
+          </div>
+        </div>
+        <p data-i18n="footerText">Created by Nexus Development.</p>
+        <a href="#home" data-i18n="footerBackToTop">BACK TO TOP ↑</a>
+      </footer>
+    </div>
+
+    <script>
+      const translations = {
+        en: {
+          navHome: 'Home',
+          navCollection: 'Collection',
+          navGameplay: 'Gameplay',
+          navUpdates: 'Updates',
+          navCommunity: 'Community',
+          navAbout: 'About',
+          discordCta: 'JOIN OUR DISCORD',
+          comingSoon: 'COMING SOON',
+          eyebrow: 'AN ORIGINAL ROBLOX EXPERIENCE BY NEXUS DEVELOPMENT',
+          heroTitle: 'THE NEXT LEGEND STARTS HERE',
+          heroSub: 'COLLECT. COMPETE. BECOME LEGENDARY.',
+          heroText: 'Discover rare knives, open cases, challenge other players, and build a collection that sets you apart.',
+          heroMetaDev: 'Currently in development',
+          heroMetaPlatform: 'Roblox',
+          infoCases: 'Cases',
+          infoCasesText: 'Rare knives & themed drops',
+          infoInventory: 'Inventory',
+          infoInventoryText: 'Collect, sort, favorite',
+          infoPvP: 'PvP',
+          infoPvPText: 'Skill-based competition',
+          infoTrading: 'Trading',
+          infoTradingText: 'Secure & verified deals',
+          sectionCollectionEyebrow: 'A NEW KIND OF COLLECTION',
+          sectionCollectionTitle: 'Every knife has a place in your journey.',
+          sectionCollectionIntro: 'Discover new designs, chase rare finds, and make your collection your own.',
+          feature1Title: 'OPEN CASES. FIND YOUR FAVORITE.',
+          feature1Text: 'Explore the excitement of collecting and uncovering new knives. Every discovery brings a new goal to chase.',
+          feature2Title: 'PROVE YOUR SKILLS',
+          feature2Text: 'Take on other players, sharpen your skills, and compete to earn your place among the legends.',
+          feature3Title: 'BUILD YOUR LEGACY',
+          feature3Text: 'Grow your collection, trade with other players, and work toward becoming a true Knife Legend.',
+          gameplayEyebrow: 'THE CORE LOOP',
+          gameplayTitle: 'Collect, compete, and grow.',
+          gameplayIntro: 'The loop begins with better collection, new goals, and sharper challenges.',
+          loop1Title: 'Earn Rewards',
+          loop1Text: 'Earn in-game currency through gameplay, quests, and battles.',
+          loop2Title: 'Open Cases',
+          loop2Text: 'Unlock themed knife collections with different rarities and styles.',
+          loop3Title: 'Play & Compete',
+          loop3Text: 'Challenge other players in PvP and climb the leaderboard.',
+          loop4Title: 'Trade & Collect',
+          loop4Text: 'Complete your set, track your progress, and pursue new milestones.',
+          updatesEyebrow: 'DEVELOPMENT & UPDATES',
+          updatesTitle: 'Built for the next generation of legends.',
+          updatesLink: 'Join the community ↗',
+          update1Title: 'Core gameplay and collection design',
+          update1Text: 'Define the first knife sets, case structure, inventory flow, and brand identity.',
+          update2Title: 'Rewards, cases, collection, and PvP',
+          update2Text: 'Prototype the main loop and validate progression, saving, and combat feel.',
+          update3Title: 'Secure trades and balance',
+          update3Text: 'Improve user trust with verified trade flows, exploit protection, and gameplay testing.',
+          communityEyebrow: 'BE PART OF THE JOURNEY.',
+          communityTitle: 'KNIFE LEGEND is in development, and this is just the beginning.',
+          communityText: 'Join our community to follow development, discover sneak peeks, and stay up to date.',
+          communityStatus: 'NEXUS DEVELOPMENT · BUILT FOR THE NEXT GENERATION OF LEGENDS.',
+          aboutEyebrow: 'ABOUT NEXUS',
+          aboutTitle: 'We build collections, competition, and ambition.',
+          aboutText: 'KNIFE LEGEND is a Roblox collecting and combat experience where every knife tells a story. Open cases, discover rare blades, build your collection, and trade your way toward a legendary reputation.',
+          rarityCommon: 'Common',
+          rarityUncommon: 'Uncommon',
+          rarityRare: 'Rare',
+          rarityEpic: 'Epic',
+          rarityLegendary: 'Legendary',
+          rarityMythic: 'Mythic',
+          footerText: 'Created by Nexus Development.',
+          footerBackToTop: 'BACK TO TOP ↑'
+        },
+        de: {
+          navHome: 'Start',
+          navCollection: 'Sammlung',
+          navGameplay: 'Gameplay',
+          navUpdates: 'Updates',
+          navCommunity: 'Community',
+          navAbout: 'Über uns',
+          discordCta: 'TRETE UNSEREM DISCORD BEI',
+          comingSoon: 'BALD VERFÜGBAR',
+          eyebrow: 'EIN ORIGINALES ROBLOX-ERLEBNIS VON NEXUS DEVELOPMENT',
+          heroTitle: 'DER NÄCHSTE LEGEND STARTET HIER',
+          heroSub: 'SAMMELN. KÄMPFEN. WERDE LEGENDÄR.',
+          heroText: 'Entdecke seltene Messer, öffne Kisten, fordere andere Spieler heraus und baue eine Sammlung auf, die dich von anderen abhebt.',
+          heroMetaDev: 'Momentan in Entwicklung',
+          heroMetaPlatform: 'Roblox',
+          infoCases: 'Kisten',
+          infoCasesText: 'Seltene Messer & thematische Drops',
+          infoInventory: 'Inventar',
+          infoInventoryText: 'Sammeln, sortieren, favorisieren',
+          infoPvP: 'PvP',
+          infoPvPText: 'Fähigkeitsbasierter Wettbewerb',
+          infoTrading: 'Handel',
+          infoTradingText: 'Sicherer & verifizierter Handel',
+          sectionCollectionEyebrow: 'EINE NEUE ART DER SAMMLUNG',
+          sectionCollectionTitle: 'Jedes Messer hat seinen Platz in deiner Reise.',
+          sectionCollectionIntro: 'Entdecke neue Designs, jage seltene Funde und gestalte deine Sammlung ganz nach deinem Stil.',
+          feature1Title: 'ÖFFNE KISTEN. FINDE DEINEN FAVORITEN.',
+          feature1Text: 'Erlebe den Nervenkitzel des Sammelns und Entdeckens neuer Messer. Jede Entdeckung bringt ein neues Ziel mit sich.',
+          feature2Title: 'BEWEISE DEINE FÄHIGKEITEN',
+          feature2Text: 'Fordere andere Spieler heraus, schärfe deine Skills und kämpfe dich unter die Legenden.',
+          feature3Title: 'BAUE DEINE LEGACY',
+          feature3Text: 'Wachse mit deiner Sammlung, tausche mit anderen Spielern und werde zu einer wahren Knife Legend.',
+          gameplayEyebrow: 'DER KERNLOOP',
+          gameplayTitle: 'Sammeln, kämpfen und wachsen.',
+          gameplayIntro: 'Der Loop beginnt mit einer besseren Sammlung, neuen Zielen und härteren Herausforderungen.',
+          loop1Title: 'Belohnungen verdienen',
+          loop1Text: 'Verdiene im Spiel Währung durch Gameplay, Quests und Kämpfe.',
+          loop2Title: 'Kisten öffnen',
+          loop2Text: 'Schalte thematische Messer-Sammlungen mit unterschiedlichen Seltenheiten frei.',
+          loop3Title: 'Spielen & kämpfen',
+          loop3Text: 'Fordere andere Spieler im PvP heraus und klettere in die Rangliste.',
+          loop4Title: 'Handeln & sammeln',
+          loop4Text: 'Vervollständige deine Sammlung, verfolge deinen Fortschritt und strebe neue Meilensteine an.',
+          updatesEyebrow: 'ENTWICKLUNG & UPDATES',
+          updatesTitle: 'Entwickelt für die nächste Generation von Legenden.',
+          updatesLink: 'Community beitreten ↗',
+          update1Title: 'Core Gameplay und Sammlungsdesign',
+          update1Text: 'Definiere die ersten Messersets, Kistenstruktur, Inventarfluss und Markenidentität.',
+          update2Title: 'Belohnungen, Kisten, Sammlung und PvP',
+          update2Text: 'Prototypisiere den Haupt-Loop und validiere Fortschritt, Speicherungen und Kampffühlen.',
+          update3Title: 'Sichere Trades und Balance',
+          update3Text: 'Verbessere das Vertrauen der Nutzer mit verifizierten Trade-Flows, Exploit-Schutz und Gameplay-Tests.',
+          communityEyebrow: 'WIRD TEIL DER REISE.',
+          communityTitle: 'KNIFE LEGEND befindet sich in der Entwicklung und das ist erst der Anfang.',
+          communityText: 'Tritt unserer Community bei, um Entwicklungen zu verfolgen, Sneak Peeks zu entdecken und stets auf dem Laufenden zu bleiben.',
+          communityStatus: 'NEXUS DEVELOPMENT · ENTWICKELT FÜR DIE NÄCHSTE GENERATION VON LEGENDEN.',
+          aboutEyebrow: 'ÜBER NEXUS',
+          aboutTitle: 'Wir bauen Sammlungen, Konkurrenz und Ambition.',
+          aboutText: 'KNIFE LEGEND ist ein Roblox-Sammel- und Kampf-Erlebnis, in dem jedes Messer eine Geschichte erzählt. Öffne Kisten, entdecke seltene Klingen, baue deine Sammlung auf und tausche dich deinen Weg zu einem legendären Ruf.',
+          rarityCommon: 'Gewöhnlich',
+          rarityUncommon: 'Ungewöhnlich',
+          rarityRare: 'Selten',
+          rarityEpic: 'Episch',
+          rarityLegendary: 'Legendär',
+          rarityMythic: 'Mythisch',
+          footerText: 'Erstellt von Nexus Development.',
+          footerBackToTop: 'ZURÜCK NACH OBEN ↑'
+        },
+        fr: {
+          navHome: 'Accueil',
+          navCollection: 'Collection',
+          navGameplay: 'Gameplay',
+          navUpdates: 'Mises à jour',
+          navCommunity: 'Communauté',
+          navAbout: 'À propos',
+          discordCta: 'REJOIGNEZ NOTRE DISCORD',
+          comingSoon: 'BIENTÔT',
+          eyebrow: 'UNE EXPÉRIENCE ROBLOX ORIGINALE DE NEXUS DEVELOPMENT',
+          heroTitle: 'LA PROCHAINE LÉGENDE COMMENCE ICI',
+          heroSub: 'COLLECTE. COMPÈTE. DEVIENS LÉGENDAIRE.',
+          heroText: 'Découvre des lames rares, ouvre des coffres, défie d’autres joueurs et construis une collection qui te distingue.',
+          heroMetaDev: 'Actuellement en développement',
+          heroMetaPlatform: 'Roblox',
+          infoCases: 'Coffres',
+          infoCasesText: 'Lames rares & objets thématiques',
+          infoInventory: 'Inventaire',
+          infoInventoryText: 'Collectionner, trier, mettre en favori',
+          infoPvP: 'PvP',
+          infoPvPText: 'Compétition basée sur les compétences',
+          infoTrading: 'Échange',
+          infoTradingText: 'Échanges sécurisés et vérifiés',
+          sectionCollectionEyebrow: 'UNE NOUVELLE FORME DE COLLECTION',
+          sectionCollectionTitle: 'Chaque lame a sa place dans ton parcours.',
+          sectionCollectionIntro: 'Découvre de nouveaux designs, poursuis des trouvailles rares et construis ta collection selon ton style.',
+          feature1Title: 'OUVRE DES COFFRES. TROUVE TON PRÉFÉRÉ.',
+          feature1Text: 'Explore le frisson de collectionner et de découvrir de nouvelles lames. Chaque trouvaille apporte un nouvel objectif à atteindre.',
+          feature2Title: 'PREUVE TES COMPÉTENCES',
+          feature2Text: 'Affronte d’autres joueurs, perfectionne tes compétences et lutte pour ta place parmi les légendes.',
+          feature3Title: 'CONSTRUIS TON HÉRITAGE',
+          feature3Text: 'Fais grandir ta collection, échange avec d’autres joueurs et travaille pour devenir une vraie Knife Legend.',
+          gameplayEyebrow: 'LE CYCLE CENTRAL',
+          gameplayTitle: 'Collecte, compétition et progression.',
+          gameplayIntro: 'Le cycle commence par une meilleure collection, de nouveaux objectifs et des défis plus exigeants.',
+          loop1Title: 'Gagner des récompenses',
+          loop1Text: 'Gagne de la monnaie dans le jeu grâce aux parties, quêtes et combats.',
+          loop2Title: 'Ouvrir des coffres',
+          loop2Text: 'Débloque des collections de lames thématiques avec différentes raretés et styles.',
+          loop3Title: 'Jouer & rivaliser',
+          loop3Text: 'Défie d’autres joueurs en PvP et monte dans le classement.',
+          loop4Title: 'Échanger & collectionner',
+          loop4Text: 'Complète ta collection, suivez ta progression et visez de nouvelles étapes.',
+          updatesEyebrow: 'DÉVELOPPEMENT & MISES À JOUR',
+          updatesTitle: 'Conçu pour la prochaine génération de légendes.',
+          updatesLink: 'Rejoindre la communauté ↗',
+          update1Title: 'Gameplay principal et design de collection',
+          update1Text: 'Définis les premiers packs de lames, la structure des coffres, le flux d’inventaire et l’identité de marque.',
+          update2Title: 'Récompenses, coffres, collection et PvP',
+          update2Text: 'Prototype le loop principal et valide la progression, la sauvegarde et le ressenti du combat.',
+          update3Title: 'Échanges sécurisés et équilibre',
+          update3Text: 'Améliore la confiance des joueurs avec des échanges vérifiés, une protection anti-exploit et des tests gameplay.',
+          communityEyebrow: 'FAIS PARTIE DU PARCOURS.',
+          communityTitle: 'KNIFE LEGEND est en développement et ce n’est que le début.',
+          communityText: 'Rejoins notre communauté pour suivre l’avancée du projet, découvrir des aperçus et rester à jour.',
+          communityStatus: 'NEXUS DEVELOPMENT · CONÇU POUR LA PROCHAINE GÉNÉRATION DE LÉGENDES.',
+          aboutEyebrow: 'À PROPOS DE NEXUS',
+          aboutTitle: 'Nous créons des collections, de la compétition et de l’ambition.',
+          aboutText: 'KNIFE LEGEND est une expérience de collecte et de combat sur Roblox où chaque lame raconte une histoire. Ouvre des coffres, découvre des lames rares, crée ta collection et échange pour construire une réputation légendaire.',
+          rarityCommon: 'Commun',
+          rarityUncommon: 'Peu commun',
+          rarityRare: 'Rare',
+          rarityEpic: 'Épique',
+          rarityLegendary: 'Légendaire',
+          rarityMythic: 'Mythique',
+          footerText: 'Créé par Nexus Development.',
+          footerBackToTop: 'RETOUR EN HAUT ↑'
+        }
+      };
+
+      const defaultLang = 'en';
+      const languageSwitcher = document.querySelector('.language-switcher');
+      const languageToggle = document.querySelector('.language-toggle');
+      const languageFlag = document.querySelector('.language-flag');
+      const languageCode = document.querySelector('.language-code');
+      const languageButtons = document.querySelectorAll('.lang-option');
+      const i18nNodes = document.querySelectorAll('[data-i18n]');
+
+      const languageMeta = {
+        en: { flag: '🇬🇧', code: 'ENG' },
+        de: { flag: '🇩🇪', code: 'DEU' },
+        fr: { flag: '🇫🇷', code: 'FRA' }
+      };
+
+      function getStoredLanguage() {
+        const stored = localStorage.getItem('knifeLegendLang');
+        return stored && translations[stored] ? stored : defaultLang;
+      }
+
+      function setLanguage(lang) {
+        const safeLang = translations[lang] ? lang : defaultLang;
+        const meta = languageMeta[safeLang] || languageMeta[defaultLang];
+
+        document.documentElement.lang = safeLang;
+        document.title = 'KNIFE LEGEND | Nexus Development';
+
+        i18nNodes.forEach((node) => {
+          const key = node.dataset.i18n;
+          const translate = translations[safeLang][key];
+          if (translate) {
+            node.textContent = translate;
+          }
+        });
+
+        languageButtons.forEach((button) => {
+          const isActive = button.dataset.lang === safeLang;
+          button.classList.toggle('active', isActive);
+          button.setAttribute('aria-selected', String(isActive));
+        });
+
+        languageFlag.textContent = meta.flag;
+        languageCode.textContent = meta.code;
+        localStorage.setItem('knifeLegendLang', safeLang);
+      }
+
+      languageButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          setLanguage(button.dataset.lang);
+          languageSwitcher.classList.remove('open');
+          languageToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      languageToggle.addEventListener('click', () => {
+        const isOpen = languageSwitcher.classList.contains('open');
+        languageSwitcher.classList.toggle('open', !isOpen);
+        languageToggle.setAttribute('aria-expanded', String(!isOpen));
+      });
+
+      document.addEventListener('click', (event) => {
+        if (!languageSwitcher.contains(event.target)) {
+          languageSwitcher.classList.remove('open');
+          languageToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      setLanguage(getStoredLanguage());
+    </script>
+  </body>
+</html>
